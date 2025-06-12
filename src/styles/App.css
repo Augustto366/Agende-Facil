@@ -1,0 +1,628 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'RobotoR';
+    src: url('../assets/Roboto-Regular.ttf');
+}
+
+body, html, #root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+@media (max-width: 360px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100vw;
+        background-color: #fff;
+    
+            .first {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+                height: 1080px;
+                width: 100vw;
+                background-color: #DCE9E2;
+    
+                    .firstDialogue {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 30px;
+                        margin-top: 10px;
+                        padding: 10px;
+                        align-items: center;
+                        position: relative;
+    
+                            h3 {
+                                font-family: 'RobotoR';
+                                font-size: medium;
+                                color: #00856f;
+                            }
+    
+                            h2 {
+                                font-family: 'RobotoR';
+                                font-size: 2.3em;
+                                color: #000;       
+                                text-align: center;                     
+                            }
+    
+                            p {
+                                font-family: 'RobotoR';
+                                color: #384633;
+                                text-align: center;
+                                
+                            }
+    
+                            button {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 20px;
+                                font-family: 'RobotoR';
+                                background-color: #00856f;
+                                color: #fff;
+                                padding: 15px;
+                                width: 80%;
+                                border: none;
+                                border-radius: 50px;
+                            }
+                    }
+    
+                    .block {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 40px;
+                        position: absolute;
+                        bottom: -80%; /* ajustar */
+                        width: 90%;
+                        height: 470px;
+                        border-radius: 8px;
+                        background-color: #FFFAF1;
+    
+                            h2 {
+                                font-family: 'RobotoR';
+                                font-size: 3em;
+                                text-align: center;
+                                color: #000;
+                                margin-top: 40px;
+                            }
+    
+                            p {
+                                font-family: 'RobotoR';
+                                color: #00856f;
+                            }
+                    }
+            }
+    
+            .second {
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+                
+                width: 100vw;
+                height: 2034px;
+                background-color: #F7F9F9;
+    
+                    .secondDialogue {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 30px;
+                        margin-top: 100%;
+                        align-items: center;
+    
+                            h2 {
+                                text-align: center;
+                            }
+    
+                            .fp {
+                                font-family: 'RobotoR';
+                                font-weight: bolder;
+                                color: #00856f;
+                            }
+    
+                            .box {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: start;
+                                gap: 20px;
+                                width: 90%;
+                                background-color: #fff;
+                                padding: 20px;
+                                border-radius: 8px;
+                                border: 1px solid #38463310;
+    
+                                 img {
+                                    width: 20px;
+                                    background-color: #b6fdd7;
+                                    border-radius: 50%;
+                                    padding: 3px;
+                                }
+    
+                                p {
+                                    font-family: 'RobotoR';
+                                    color: #384633;
+                                    text-align: left;
+                                    
+                                }
+                            }
+                    }
+            }
+    
+            .three {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+                width: 100vw;
+                height: 970px;
+                background-color: #FFFAF1;
+    
+                    .tdialogue {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 30px;
+                        margin-top: 20%;
+    
+                            p {
+                                font-family: 'RobotoR';
+                                color: #384633;
+                            }
+    
+                            h3 {
+                                font-family: 'RobotoR'; 
+                                color: #000;
+                                font-size: 1.5em;
+                                line-height: 30px;
+                            }
+    
+                            h5 {
+                                display: flex;
+                                align-self: flex-start;
+                                font-family: 'RobotoR'; 
+                                font-size: 1em;
+                                color: #00856f;
+                                
+                            }
+    
+                             img {
+                                margin-top: 20px;
+                                width: 330px;
+                                border-radius: 15px;
+                            }
+                    }
+            }
+    
+            .last {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+                width: 100vw;
+                height: 735px;
+    
+                    .lastd {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        margin-top: 30%;
+                        gap: 10px;
+                        
+                            h2 {
+                                font-family: 'RobotoR';
+                                margin-bottom: 10%;
+                                color: #000;
+                            }
+    
+                            p {
+                                font-family: 'RobotoR';
+                                color: #384633;
+                            }
+    
+                            .btn {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 20px;
+                                font-family: 'RobotoR';
+                                background-color: #00856f;
+                                color: #fff;
+                                padding: 15px;
+                                width: 80%;
+                                border: none;
+                                border-radius: 50px;
+                                margin-top: 10%;
+                            }
+    
+                            .imgl {
+                                width: 300px;
+                                display: flex;
+                                flex-direction: column;
+                                align-self: center;
+                                border-radius: 10px;
+                                margin-top: 15%;
+                            }
+    
+                            .imge {
+                                width: 20px;
+                            }
+                    }
+            }
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        font-family: 'RobotoR';
+        color: #fff;
+        height: 72px;
+        background-color: #00856f;
+    
+            img {
+                width: 35px;
+                height: 35px;
+            }
+    }
+    
+    .foot {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60%;
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+        font-family: 'RobotoR';
+        font-size: 1.8em;
+        color: #fff;
+        background-color: #00856f;
+        height: 285px;
+    
+            img {
+                width: 22px;
+            }
+    
+            small {
+                font-size: 16px;
+                line-height: 40px;
+            }
+    
+            div {
+                display: flex;
+                gap: 30px;
+            }
+    }
+    
+    .wppLogo {
+        width: 20px;
+    }
+    
+    .med {
+        width: 300px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 500px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100vw;
+        background-color: #fff;
+    
+            .first {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+                height: 1080px;
+                width: 100vw;
+                background-color: #DCE9E2;
+    
+                    .firstDialogue {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 30px;
+                        margin-top: 10px;
+                        padding: 10px;
+                        align-items: center;
+    
+                            h3 {
+                                font-family: 'RobotoR';
+                                font-size: medium;
+                                color: #00856f;
+                            }
+    
+                            h2 {
+                                font-family: 'RobotoR';
+                                font-size: 2.3em;
+                                color: #000;       
+                                text-align: center;                     
+                            }
+    
+                            p {
+                                font-family: 'RobotoR';
+                                color: #384633;
+                                text-align: center;
+                                
+                            }
+    
+                            button {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 20px;
+                                font-family: 'RobotoR';
+                                background-color: #00856f;
+                                color: #fff;
+                                padding: 15px;
+                                width: 80%;
+                                border: none;
+                                border-radius: 50px;
+                            }
+                    }
+    
+                    .block {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 40px;
+                        z-index: 1;
+                        margin-top: -10%;
+                        width: 90%;
+                        height: 470px;
+                        border-radius: 8px;
+                        background-color: #FFFAF1;
+    
+                            h2 {
+                                font-family: 'RobotoR';
+                                font-size: 3em;
+                                text-align: center;
+                                color: #000;
+                                margin-top: 40px;
+                            }
+    
+                            p {
+                                font-family: 'RobotoR';
+                                color: #00856f;
+                            }
+
+                            .three {
+                                width: 100%;
+                            }
+                    }
+            }
+    
+            .second {
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+                
+                width: 100vw;
+                height: 2034px;
+                background-color: #F7F9F9;
+    
+                    .secondDialogue {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 30px;
+                        margin-top: 100%;
+                        align-items: center;
+    
+                            h2 {
+                                text-align: center;
+                            }
+    
+                            .fp {
+                                font-family: 'RobotoR';
+                                font-weight: bolder;
+                                color: #00856f;
+                            }
+    
+                            .box {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: start;
+                                gap: 20px;
+                                width: 90%;
+                                background-color: #fff;
+                                padding: 20px;
+                                border-radius: 8px;
+                                border: 1px solid #38463310;
+    
+                                 img {
+                                    width: 20px;
+                                    background-color: #b6fdd7;
+                                    border-radius: 50%;
+                                    padding: 3px;
+                                }
+    
+                                p {
+                                    font-family: 'RobotoR';
+                                    color: #384633;
+                                    text-align: left;
+                                    
+                                }
+                            }
+                    }
+            }
+    
+            .three {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+                width: 100vw;
+                height: 970px;
+                background-color: #FFFAF1;
+    
+                    .tdialogue {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 30px;
+                        margin-top: 20%;
+    
+                            p {
+                                font-family: 'RobotoR';
+                                color: #384633;
+                            }
+    
+                            h3 {
+                                font-family: 'RobotoR'; 
+                                color: #000;
+                                font-size: 1.5em;
+                                line-height: 30px;
+                            }
+    
+                            h5 {
+                                display: flex;
+                                align-self: flex-start;
+                                font-family: 'RobotoR'; 
+                                font-size: 1em;
+                                color: #00856f;
+                                
+                            }
+    
+                             img {
+                                margin-top: 20px;
+                                width: 330px;
+                                border-radius: 15px;
+                            }
+                    }
+            }
+    
+            .last {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+                width: 100vw;
+                height: 735px;
+    
+                    .lastd {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        margin-top: 30%;
+                        gap: 10px;
+                        
+                            h2 {
+                                font-family: 'RobotoR';
+                                margin-bottom: 10%;
+                                color: #000;
+                            }
+    
+                            p {
+                                font-family: 'RobotoR';
+                                color: #384633;
+                            }
+    
+                            .btn {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 20px;
+                                font-family: 'RobotoR';
+                                background-color: #00856f;
+                                color: #fff;
+                                padding: 15px;
+                                width: 80%;
+                                border: none;
+                                border-radius: 50px;
+                                margin-top: 10%;
+                            }
+    
+                            .imgl {
+                                width: 300px;
+                                display: flex;
+                                flex-direction: column;
+                                align-self: center;
+                                border-radius: 10px;
+                                margin-top: 15%;
+                            }
+    
+                            .imge {
+                                width: 20px;
+                            }
+                    }
+            }
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        font-family: 'RobotoR';
+        color: #fff;
+        height: 72px;
+        background-color: #00856f;
+    
+            img {
+                width: 35px;
+                height: 35px;
+            }
+    }
+    
+    .foot {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60%;
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+        font-family: 'RobotoR';
+        font-size: 1.8em;
+        color: #fff;
+        background-color: #00856f;
+        height: 285px;
+    
+            img {
+                width: 22px;
+            }
+    
+            small {
+                font-size: 16px;
+                line-height: 40px;
+            }
+    
+            div {
+                display: flex;
+                gap: 30px;
+            }
+    }
+    
+    .wppLogo {
+        width: 20px;
+    }
+    
+    .med {
+        width: 300px;
+        margin-top: 20px;
+    }
+}
+
