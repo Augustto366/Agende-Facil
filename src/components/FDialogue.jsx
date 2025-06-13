@@ -7,8 +7,8 @@ export class FDialogue extends Component {
     return (
       <div className='firstDialogue'>
         <h3>BOAS-VINDAS A AGENDE FÁCIL 🤝</h3>
-        <h2>Assistência médica <br /> simplificada para <br /> todos</h2>
-        <p>Com a Agende Fácil você mantém todo <br /> conforto da sua casa para marcar <br /> consulta médica em qualquer <br /> lugar do Brasil.</p>
+        <h2>Assistência médica simplificada para todos</h2>
+        <p>Com a Agende Fácil você mantém todo conforto da sua casa para marcar  consulta médica em qualquer lugar do Brasil.</p>
         <button type="button"> <img className='wppLogo' src={wpp}/> AGENDE SUA CONSULTA</button>
         <img className='med' src={medico}/>
       </div>
