@@ -9,7 +9,9 @@
     src: url('../assets/Roboto-Regular.ttf');
 }
 
-body, html, #root {
+body,
+html,
+#root {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -24,243 +26,265 @@ body, html, #root {
         min-height: 100vh;
         width: 100vw;
         background-color: #fff;
-    
-            .first {
+
+        .first {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            height: 1080px;
+            width: 100vw;
+            background-color: #DCE9E2;
+
+            .firstDialogue {
                 display: flex;
                 flex-direction: column;
-                align-items: center;
+                gap: 30px;
+                margin-top: 10px;
                 padding: 10px;
-                height: 1080px;
-                width: 100vw;
-                background-color: #DCE9E2;
-    
-                    .firstDialogue {
-                        display: flex;
-                        flex-direction: column;
-                        gap: 30px;
-                        margin-top: 10px;
-                        padding: 10px;
-                        align-items: center;
-                        position: relative;
-    
-                            h3 {
-                                font-family: 'RobotoR';
-                                font-size: medium;
-                                color: #00856f;
-                            }
-    
-                            h2 {
-                                font-family: 'RobotoR';
-                                font-size: 2.3em;
-                                color: #000;       
-                                text-align: center;                     
-                            }
-    
-                            p {
-                                font-family: 'RobotoR';
-                                color: #384633;
-                                text-align: center;
-                                
-                            }
-    
-                            button {
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                gap: 20px;
-                                font-family: 'RobotoR';
-                                background-color: #00856f;
-                                color: #fff;
-                                padding: 15px;
-                                width: 80%;
-                                border: none;
-                                border-radius: 50px;
-                            }
-                    }
-    
-                    .block {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        padding: 40px;
-                        position: absolute;
-                        bottom: -80%; /* ajustar */
-                        width: 90%;
-                        height: 470px;
-                        border-radius: 8px;
-                        background-color: #FFFAF1;
-    
-                            h2 {
-                                font-family: 'RobotoR';
-                                font-size: 3em;
-                                text-align: center;
-                                color: #000;
-                                margin-top: 40px;
-                            }
-    
-                            p {
-                                font-family: 'RobotoR';
-                                color: #00856f;
-                            }
-                    }
+                align-items: center;
+                position: relative;
+
+                h3 {
+                    font-family: 'RobotoR';
+                    font-size: medium;
+                    color: #00856f;
+                }
+
+                h2 {
+                    font-family: 'RobotoR';
+                    font-size: 2.3em;
+                    color: #000;
+                    text-align: center;
+                }
+
+                p {
+                    font-family: 'RobotoR';
+                    color: #384633;
+                    text-align: center;
+
+                }
+
+                button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+                    font-family: 'RobotoR';
+                    background-color: #00856f;
+                    color: #fff;
+                    padding: 15px;
+                    width: 80%;
+                    border: none;
+                    border-radius: 50px;
+                }
             }
-    
-            .second {
-                display: flex;
-                flex-direction: column;
-                padding: 20px;
-                
-                width: 100vw;
-                height: 2034px;
-                background-color: #F7F9F9;
-    
-                    .secondDialogue {
-                        display: flex;
-                        flex-direction: column;
-                        gap: 30px;
-                        margin-top: 100%;
-                        align-items: center;
-    
-                            h2 {
-                                text-align: center;
-                            }
-    
-                            .fp {
-                                font-family: 'RobotoR';
-                                font-weight: bolder;
-                                color: #00856f;
-                            }
-    
-                            .box {
-                                display: flex;
-                                flex-direction: column;
-                                align-items: start;
-                                gap: 20px;
-                                width: 90%;
-                                background-color: #fff;
-                                padding: 20px;
-                                border-radius: 8px;
-                                border: 1px solid #38463310;
-    
-                                 img {
-                                    width: 20px;
-                                    background-color: #b6fdd7;
-                                    border-radius: 50%;
-                                    padding: 3px;
-                                }
-    
-                                p {
-                                    font-family: 'RobotoR';
-                                    color: #384633;
-                                    text-align: left;
-                                    
-                                }
-                            }
-                    }
-            }
-    
-            .three {
+
+            .block {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                padding: 20px;
-                width: 100vw;
-                height: 970px;
+                padding: 40px;
+                position: absolute;
+                bottom: -80%;
+                width: 90%;
+                height: 470px;
+                border-radius: 8px;
                 background-color: #FFFAF1;
-    
-                    .tdialogue {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        gap: 30px;
-                        margin-top: 20%;
-    
-                            p {
-                                font-family: 'RobotoR';
-                                color: #384633;
-                            }
-    
-                            h3 {
-                                font-family: 'RobotoR'; 
-                                color: #000;
-                                font-size: 1.5em;
-                                line-height: 30px;
-                            }
-    
-                            h5 {
-                                display: flex;
-                                align-self: flex-start;
-                                font-family: 'RobotoR'; 
-                                font-size: 1em;
-                                color: #00856f;
-                                
-                            }
-    
-                             img {
-                                margin-top: 20px;
-                                width: 330px;
-                                border-radius: 15px;
-                            }
-                    }
+
+                h2 {
+                    font-family: 'RobotoR';
+                    font-size: 3em;
+                    text-align: center;
+                    color: #000;
+                    margin-top: 40px;
+                }
+
+                p {
+                    font-family: 'RobotoR';
+                    color: #00856f;
+                }
             }
-    
-            .last {
+        }
+
+        .second {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+
+            width: 100vw;
+            height: 2034px;
+            background-color: #F7F9F9;
+
+            .secondDialogue {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                margin-top: 100%;
+                align-items: center;
+
+                h2 {
+                    text-align: center;
+                    width: 300px;
+                    margin-bottom: 8%;
+                }
+
+                .fp {
+                    font-family: 'RobotoR';
+                    font-weight: bolder;
+                    color: #00856f;
+                }
+
+                .desktop-ad {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+                    align-items: center;
+                }
+
+                .box {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    gap: 20px;
+                    width: 90%;
+                    background-color: #fff;
+                    padding: 20px;
+                    border-radius: 8px;
+                    border: 1px solid #38463310;
+
+                    img {
+                        width: 20px;
+                        background-color: #b6fdd7;
+                        border-radius: 50%;
+                        padding: 3px;
+                    }
+
+                    p {
+                        font-family: 'RobotoR';
+                        color: #384633;
+                        text-align: left;
+
+                    }
+                }
+            }
+        }
+
+        .three {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            width: 100vw;
+            height: 970px;
+            background-color: #FFFAF1;
+
+            .divDesktop {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .tdialogue {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                padding: 20px;
-                width: 100vw;
-                height: 735px;
-    
-                    .lastd {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: flex-start;
-                        margin-top: 30%;
-                        gap: 10px;
-                        
-                            h2 {
-                                font-family: 'RobotoR';
-                                margin-bottom: 10%;
-                                color: #000;
-                            }
-    
-                            p {
-                                font-family: 'RobotoR';
-                                color: #384633;
-                            }
-    
-                            .btn {
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                gap: 20px;
-                                font-family: 'RobotoR';
-                                background-color: #00856f;
-                                color: #fff;
-                                padding: 15px;
-                                width: 80%;
-                                border: none;
-                                border-radius: 50px;
-                                margin-top: 10%;
-                            }
-    
-                            .imgl {
-                                width: 300px;
-                                display: flex;
-                                flex-direction: column;
-                                align-self: center;
-                                border-radius: 10px;
-                                margin-top: 15%;
-                            }
-    
-                            .imge {
-                                width: 20px;
-                            }
-                    }
+                gap: 30px;
+                margin-top: 20%;
+
+                p {
+                    font-family: 'RobotoR';
+                    color: #384633;
+                }
+
+                h3 {
+                    font-family: 'RobotoR';
+                    color: #000;
+                    font-size: 1.5em;
+                    line-height: 30px;
+                }
+
+                h5 {
+                    display: flex;
+                    align-self: flex-start;
+                    font-family: 'RobotoR';
+                    font-size: 1em;
+                    color: #00856f;
+
+                }
+
+                img {
+                    margin-top: 20px;
+                    width: 330px;
+                    border-radius: 15px;
+                }
             }
+        }
+
+        .last {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            width: 100vw;
+            height: 735px;
+
+            .lastd {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin-top: 30%;
+                gap: 10px;
+
+                h2 {
+                    font-family: 'RobotoR';
+                    margin-bottom: 10%;
+                    color: #000;
+                }
+
+                .desktopLast {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+
+                p {
+                    font-family: 'RobotoR';
+                    color: #384633;
+
+                }
+
+                .btn {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+                    font-family: 'RobotoR';
+                    background-color: #00856f;
+                    color: #fff;
+                    padding: 15px;
+                    width: 80%;
+                    border: none;
+                    border-radius: 50px;
+                    margin-top: 10%;
+                }
+
+                .imgl {
+                    width: 300px;
+                    display: flex;
+                    flex-direction: column;
+                    align-self: center;
+                    border-radius: 10px;
+                    margin-top: 15%;
+                }
+
+                .imge {
+                    width: 20px;
+                }
+            }
+        }
     }
-    
+
     .header {
         display: flex;
         justify-content: space-between;
@@ -270,27 +294,27 @@ body, html, #root {
         color: #fff;
         height: 72px;
         background-color: #00856f;
-    
-            img {
-                width: 35px;
-                height: 35px;
-            }
 
-            .items {
-                display: none;
-            }
+        img {
+            width: 35px;
+            height: 35px;
+        }
 
-            .btncons {
-                display: none;
-            }
+        .items {
+            display: none;
+        }
+
+        .btncons {
+            display: none;
+        }
     }
-    
+
     .foot {
         display: flex;
         flex-direction: column;
         margin-top: 60%;
     }
-    
+
     .footer {
         display: flex;
         flex-direction: column;
@@ -302,26 +326,32 @@ body, html, #root {
         color: #fff;
         background-color: #00856f;
         height: 285px;
-    
-            img {
-                width: 22px;
-            }
-    
-            small {
-                font-size: 16px;
-                line-height: 40px;
-            }
-    
-            div {
-                display: flex;
-                gap: 30px;
-            }
+
+        img {
+            width: 22px;
+        }
+        .aux {
+            display: flex;
+            flex-direction: column;
+
+               
+        }
+
+        small {
+            font-size: 16px;
+            line-height: 40px;
+        }
+
+        div {
+            display: flex;
+            gap: 30px;
+        }
     }
-    
+
     .wppLogo {
         width: 20px;
     }
-    
+
     .med {
         width: 300px;
         margin-top: 20px;
@@ -335,246 +365,269 @@ body, html, #root {
         min-height: 100vh;
         width: 100vw;
         background-color: #fff;
-    
-            .first {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                padding: 10px;
-                height: 1080px;
-                width: 100vw;
-                background-color: #DCE9E2;
-    
-                    .firstDialogue {
-                        display: flex;
-                        flex-direction: column;
-                        gap: 30px;
-                        margin-top: 10px;
-                        padding: 10px;
-                        align-items: center;
-    
-                            h3 {
-                                font-family: 'RobotoR';
-                                font-size: medium;
-                                color: #00856f;
-                            }
-    
-                            h2 {
-                                font-family: 'RobotoR';
-                                font-size: 2.3em;
-                                color: #000;       
-                                text-align: center;                     
-                            }
-    
-                            p {
-                                font-family: 'RobotoR';
-                                color: #384633;
-                                text-align: center;
-                                
-                            }
-    
-                            button {
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                gap: 20px;
-                                font-family: 'RobotoR';
-                                background-color: #00856f;
-                                color: #fff;
-                                padding: 15px;
-                                width: 80%;
-                                border: none;
-                                border-radius: 50px;
-                            }
-                    }
-    
-                    .block {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        padding: 40px;
-                        z-index: 1;
-                        margin-top: -10%;
-                        width: 90%;
-                        height: 470px;
-                        border-radius: 8px;
-                        background-color: #FFFAF1;
-    
-                            h2 {
-                                font-family: 'RobotoR';
-                                font-size: 3em;
-                                text-align: center;
-                                color: #000;
-                                margin-top: 40px;
-                            }
-    
-                            p {
-                                font-family: 'RobotoR';
-                                color: #00856f;
-                            }
 
-                            .three {
-                                width: 100%;
-                            }
-                    }
-            }
-    
-            .second {
+        .first {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            height: 1080px;
+            width: 100vw;
+            background-color: #DCE9E2;
+
+            .firstDialogue {
                 display: flex;
                 flex-direction: column;
-                padding: 20px;
-                
-                width: 100vw;
-                height: 2034px;
-                background-color: #F7F9F9;
-    
-                    .secondDialogue {
-                        display: flex;
-                        flex-direction: column;
-                        gap: 30px;
-                        margin-top: 100%;
-                        align-items: center;
-    
-                            h2 {
-                                text-align: center;
-                            }
-    
-                            .fp {
-                                font-family: 'RobotoR';
-                                font-weight: bolder;
-                                color: #00856f;
-                            }
-    
-                            .box {
-                                display: flex;
-                                flex-direction: column;
-                                align-items: start;
-                                gap: 20px;
-                                width: 90%;
-                                background-color: #fff;
-                                padding: 20px;
-                                border-radius: 8px;
-                                border: 1px solid #38463310;
-    
-                                 img {
-                                    width: 20px;
-                                    background-color: #b6fdd7;
-                                    border-radius: 50%;
-                                    padding: 3px;
-                                }
-    
-                                p {
-                                    font-family: 'RobotoR';
-                                    color: #384633;
-                                    text-align: left;
-                                    
-                                }
-                            }
-                    }
+                gap: 30px;
+                margin-top: 10px;
+                padding: 10px;
+                align-items: center;
+
+                h3 {
+                    font-family: 'RobotoR';
+                    font-size: medium;
+                    color: #00856f;
+                }
+
+                h2 {
+                    font-family: 'RobotoR';
+                    font-size: 2.3em;
+                    color: #000;
+                    text-align: center;
+                }
+
+                p {
+                    font-family: 'RobotoR';
+                    color: #384633;
+                    text-align: center;
+
+                }
+
+                button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+                    font-family: 'RobotoR';
+                    background-color: #00856f;
+                    color: #fff;
+                    padding: 15px;
+                    width: 80%;
+                    border: none;
+                    border-radius: 50px;
+                }
             }
-    
-            .three {
+
+            .block {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                padding: 20px;
-                width: 100vw;
-                height: 970px;
+                padding: 40px;
+                z-index: 1;
+                margin-top: -10%;
+                width: 90%;
+                height: 470px;
+                border-radius: 8px;
                 background-color: #FFFAF1;
-    
-                    .tdialogue {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        gap: 30px;
-                        margin-top: 20%;
-    
-                            p {
-                                font-family: 'RobotoR';
-                                color: #384633;
-                            }
-    
-                            h3 {
-                                font-family: 'RobotoR'; 
-                                color: #000;
-                                font-size: 1.5em;
-                                line-height: 30px;
-                            }
-    
-                            h5 {
-                                display: flex;
-                                align-self: flex-start;
-                                font-family: 'RobotoR'; 
-                                font-size: 1em;
-                                color: #00856f;
-                                
-                            }
-    
-                             img {
-                                margin-top: 20px;
-                                width: 330px;
-                                border-radius: 15px;
-                            }
-                    }
+
+                h2 {
+                    font-family: 'RobotoR';
+                    font-size: 3em;
+                    text-align: center;
+                    color: #000;
+                    margin-top: 40px;
+                }
+
+                p {
+                    font-family: 'RobotoR';
+                    color: #00856f;
+                }
+
+                .three {
+                    width: 100%;
+                }
             }
-    
-            .last {
+        }
+
+        .second {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+
+            width: 100vw;
+            height: 2034px;
+            background-color: #F7F9F9;
+
+            .secondDialogue {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                margin-top: 80%;
+                align-items: center;
+
+                h2 {
+                    text-align: center;
+                    margin-bottom: 60px;
+                    font-size: 2em;
+                }
+
+                .fp {
+                    font-family: 'RobotoR';
+                    font-weight: bolder;
+                    color: #00856f;
+                }
+
+                .desktop-ad {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+                    align-items: center;
+                }
+
+                .box {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    gap: 20px;
+                    width: 90%;
+                    background-color: #fff;
+                    padding: 20px;
+                    border-radius: 8px;
+                    border: 1px solid #38463310;
+
+                    img {
+                        width: 20px;
+                        background-color: #b6fdd7;
+                        border-radius: 50%;
+                        padding: 3px;
+                    }
+
+                    p {
+                        font-family: 'RobotoR';
+                        color: #384633;
+                        text-align: left;
+
+                    }
+                }
+            }
+        }
+
+        .three {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            width: 100vw;
+            height: 970px;
+            background-color: #FFFAF1;
+
+            .divDesktop {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .tdialogue {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                padding: 20px;
-                width: 100vw;
-                height: 735px;
-    
-                    .lastd {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: flex-start;
-                        margin-top: 30%;
-                        gap: 10px;
-                        
-                            h2 {
-                                font-family: 'RobotoR';
-                                margin-bottom: 10%;
-                                color: #000;
-                            }
-    
-                            p {
-                                font-family: 'RobotoR';
-                                color: #384633;
-                            }
-    
-                            .btn {
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                gap: 20px;
-                                font-family: 'RobotoR';
-                                background-color: #00856f;
-                                color: #fff;
-                                padding: 15px;
-                                width: 80%;
-                                border: none;
-                                border-radius: 50px;
-                                margin-top: 10%;
-                            }
-    
-                            .imgl {
-                                width: 300px;
-                                display: flex;
-                                flex-direction: column;
-                                align-self: center;
-                                border-radius: 10px;
-                                margin-top: 15%;
-                            }
-    
-                            .imge {
-                                width: 20px;
-                            }
-                    }
+                gap: 30px;
+                margin-top: 20%;
+
+                
+
+                p {
+                    font-family: 'RobotoR';
+                    color: #384633;
+                }
+
+                h3 {
+                    font-family: 'RobotoR';
+                    color: #000;
+                    font-size: 1.5em;
+                    line-height: 30px;
+                }
+
+                h5 {
+                    display: flex;
+                    align-self: flex-start;
+                    font-family: 'RobotoR';
+                    font-size: 1em;
+                    color: #00856f;
+
+                }
+
+                img {
+                    margin-top: 20px;
+                    width: 330px;
+                    border-radius: 15px;
+                }
             }
+        }
+
+        .last {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            width: 100vw;
+            height: 735px;
+
+            .lastd {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin-top: 30%;
+                gap: 10px;
+
+                .desktopLast {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+
+                h2 {
+                    font-family: 'RobotoR';
+                    margin-bottom: 10%;
+                    color: #000;
+                }
+
+                p {
+                    font-family: 'RobotoR';
+                    color: #384633;
+                }
+
+                .btn {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+                    font-family: 'RobotoR';
+                    background-color: #00856f;
+                    color: #fff;
+                    padding: 15px;
+                    width: 80%;
+                    border: none;
+                    border-radius: 50px;
+                    margin-top: 10%;
+                }
+
+                .imgl {
+                    width: 300px;
+                    display: flex;
+                    flex-direction: column;
+                    align-self: center;
+                    border-radius: 10px;
+                    margin-top: 15%;
+                }
+
+                .imge {
+                    width: 20px;
+                }
+            }
+        }
     }
-    
+
     .header {
         display: flex;
         justify-content: space-between;
@@ -584,27 +637,27 @@ body, html, #root {
         color: #fff;
         height: 72px;
         background-color: #00856f;
-    
-            img {
-                width: 35px;
-                height: 35px;
-            }
 
-            .items {
-                display: none;
-            }
+        img {
+            width: 35px;
+            height: 35px;
+        }
 
-            .btncons {
-                display: none;
-            }
+        .items {
+            display: none;
+        }
+
+        .btncons {
+            display: none;
+        }
     }
-    
+
     .foot {
         display: flex;
         flex-direction: column;
         margin-top: 60%;
     }
-    
+
     .footer {
         display: flex;
         flex-direction: column;
@@ -616,26 +669,33 @@ body, html, #root {
         color: #fff;
         background-color: #00856f;
         height: 285px;
-    
-            img {
-                width: 22px;
-            }
-    
-            small {
-                font-size: 16px;
-                line-height: 40px;
-            }
-    
-            div {
-                display: flex;
-                gap: 30px;
-            }
+
+        .aux {
+            display: flex;
+            flex-direction: column;
+
+               
+        }
+
+        img {
+            width: 22px;
+        }
+
+        small {
+            font-size: 16px;
+            line-height: 40px;
+        }
+
+        div {
+            display: flex;
+            gap: 30px;
+        }
     }
-    
+
     .wppLogo {
         width: 20px;
     }
-    
+
     .med {
         width: 300px;
         margin-top: 20px;
@@ -649,252 +709,336 @@ body, html, #root {
         min-height: 100vh;
         width: 100vw;
         background-color: #fff;
-    
-            .first {
-                display: flex;
-                flex-direction: column;
-                padding: 10px;
-                height: 1080px;
-                width: 100vw;
-                background-color: #DCE9E2;
-    
-                    .firstDialogue {
-                        display: flex;
-                        flex-direction: column;
-                        gap: 30px;
-                        width: 100vw;
-                        min-height: 100%;
-                        padding: 10%;
-                        align-items: flex-start;
-                        background-image: url('../assets/medico.png');
-                        background-repeat: no-repeat;
-                        background-position: 80% 30%;
-    
-                            h3 {
-                                font-family: 'RobotoR';
-                                font-size: medium;
-                                color: #00856f;
-                            }
-    
-                            h2 {
-                                font-family: 'RobotoR';
-                                font-size: 4em;
-                                color: #000;       
-                                width: 700px;                  
-                            }
-    
-                            p {
-                                font-family: 'RobotoR';
-                                color: #384633;
-                                font-size: 1.3em;
-                                width: 600px;
-                            }
-    
-                            button {
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                gap: 20px;
-                                font-family: 'RobotoR';
-                                font-weight: bold;
-                                font-size: 1em;
-                                background-color: #00856f;
-                                color: #fff;
-                                padding: 20px;
-                                width: 20%;
-                                border: none;
-                                border-radius: 50px;
-                            }
-                    }
-    
-                    .block {
-                        display: flex;
-                        gap: 30%;
-                     align-self: center;
-                        padding: 70px;
-                        
-                        z-index: 1;
-                        margin-top: -8%;
-                        width: 80%;
-                        
-                        border-radius: 8px;
-                        background-color: #FFFAF1;
-    
-                            h2 {
-                                font-family: 'RobotoR';
-                                font-size: 3em;
-                                text-align: center;
-                                color: #000;
-                                margin-top: 40px;
-                            }
-    
-                            p {
-                                font-family: 'RobotoR';
-                                color: #00856f;
-                            }
 
-                            .three {
-                                height: 100%;
-                            }
-                    }
-            }
-    
-            .second {
+        .first {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            height: 1080px;
+            width: 100vw;
+            background-color: #DCE9E2;
+
+            .firstDialogue {
                 display: flex;
                 flex-direction: column;
-                padding: 20px;
-                
+                gap: 30px;
                 width: 100vw;
-                height: 2034px;
-                background-color: #F7F9F9;
-    
-                    .secondDialogue {
-                        display: flex;
-                        flex-direction: column;
-                        gap: 30px;
-                        margin-top: 100%;
-                        align-items: center;
-    
-                            h2 {
-                                text-align: center;
-                            }
-    
-                            .fp {
-                                font-family: 'RobotoR';
-                                font-weight: bolder;
-                                color: #00856f;
-                            }
-    
-                            .box {
-                                display: flex;
-                                flex-direction: column;
-                                align-items: start;
-                                gap: 20px;
-                                width: 90%;
-                                background-color: #fff;
-                                padding: 20px;
-                                border-radius: 8px;
-                                border: 1px solid #38463310;
-    
-                                 img {
-                                    width: 20px;
-                                    background-color: #b6fdd7;
-                                    border-radius: 50%;
-                                    padding: 3px;
-                                }
-    
-                                p {
-                                    font-family: 'RobotoR';
-                                    color: #384633;
-                                    text-align: left;
-                                    
-                                }
-                            }
-                    }
+                min-height: 100%;
+                padding: 10%;
+                align-items: flex-start;
+                background-image: url('../assets/medico.png');
+                background-repeat: no-repeat;
+                background-position: 80% 30%;
+
+                h3 {
+                    font-family: 'RobotoR';
+                    font-size: 1.2em;
+                    color: #00856f;
+                }
+
+                h2 {
+                    font-family: 'RobotoR';
+                    font-size: 4em;
+                    color: #000;
+                    width: 700px;
+                }
+
+                p {
+                    font-family: 'RobotoR';
+                    color: #384633;
+                    font-size: 1.3em;
+                    width: 600px;
+                }
+
+                button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+                    font-family: 'RobotoR';
+                    font-weight: bold;
+                    font-size: 1em;
+                    background-color: #00856f;
+                    color: #fff;
+                    padding: 20px;
+                    width: 20%;
+                    border: none;
+                    border-radius: 50px;
+                }
             }
-    
-            .three {
+
+            .block {
                 display: flex;
-                flex-direction: column;
+                justify-content: center;
                 align-items: center;
-                padding: 20px;
-                width: 100vw;
-                height: 970px;
+                gap: 20%;
+                align-self: center;
+                padding: 100px;
+
+                z-index: 1;
+                margin-top: -8%;
+                width: 80%;
+
+                border-radius: 8px;
                 background-color: #FFFAF1;
-    
-                    .tdialogue {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        gap: 30px;
-                        margin-top: 20%;
-    
-                            p {
-                                font-family: 'RobotoR';
-                                color: #384633;
-                            }
-    
-                            h3 {
-                                font-family: 'RobotoR'; 
-                                color: #000;
-                                font-size: 1.5em;
-                                line-height: 30px;
-                            }
-    
-                            h5 {
-                                display: flex;
-                                align-self: flex-start;
-                                font-family: 'RobotoR'; 
-                                font-size: 1em;
-                                color: #00856f;
-                                
-                            }
-    
-                             img {
-                                margin-top: 20px;
-                                width: 330px;
-                                border-radius: 15px;
-                            }
-                    }
+
+                h2 {
+                    font-family: 'RobotoR';
+                    font-size: 4.5em;
+                    text-align: center;
+                    color: #000;
+
+                }
+
+                p {
+                    font-family: 'RobotoR';
+                    color: #00856f;
+                    text-align: center;
+                    font-size: 1.3em;
+                    width: 300px;
+
+                }
+
+                .blockd {
+                    width: 100%;
+                    position: relative;
+
+                }
+
+                .blockd::after {
+                    content: "";
+                    position: absolute;
+                    left: 150%;
+                    /* logo após a div */
+                    top: 0;
+                    width: 2px;
+                    /* espessura da linha */
+                    height: 100%;
+                    /* altura da linha */
+                    background-color: #00856f;
+                    margin-left: 10px;
+                    /* espaço entre a div e a linha */
+                }
+
+
             }
-    
-            .last {
+        }
+
+        .second {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            padding-bottom: 8%;
+            width: 100vw;
+            
+            background-color: #F7F9F9;
+
+            .secondDialogue {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                padding: 20px;
-                width: 100vw;
-                height: 735px;
-    
-                    .lastd {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: flex-start;
-                        margin-top: 30%;
-                        gap: 10px;
-                        
-                            h2 {
-                                font-family: 'RobotoR';
-                                margin-bottom: 10%;
-                                color: #000;
-                            }
-    
-                            p {
-                                font-family: 'RobotoR';
-                                color: #384633;
-                            }
-    
-                            .btn {
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                gap: 20px;
-                                font-family: 'RobotoR';
-                                background-color: #00856f;
-                                color: #fff;
-                                padding: 15px;
-                                width: 80%;
-                                border: none;
-                                border-radius: 50px;
-                                margin-top: 10%;
-                            }
-    
-                            .imgl {
-                                width: 300px;
-                                display: flex;
-                                flex-direction: column;
-                                align-self: center;
-                                border-radius: 10px;
-                                margin-top: 15%;
-                            }
-    
-                            .imge {
-                                width: 20px;
-                            }
+               margin-top: 20%;
+               
+               
+                
+
+                h2 {
+                    text-align: center;
+                    font-family: 'RobotoR';
+                    font-size: 2.8em;
+                    width: 500px;
+                    margin-bottom: 5%;
+                }
+
+                .fp {
+                    font-family: 'RobotoR';
+                    font-weight: bolder;
+                    font-size: 1.2em;
+                    color: #00856f;
+                    margin-bottom: 1%;
+                }
+
+                .desktop-ad {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    width: 70%;
+                    gap: 5%;
+                }
+
+                .box {
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 5%;
+                    gap: 20px;
+                    width: 30%;
+                    background-color: #fff;
+                    padding: 40px;
+                    border-radius: 8px;
+                    border: 1px solid #38463310;
+
+                    img {
+                        width: 20px;
+                        background-color: #b6fdd7;
+                        border-radius: 50%;
+                        padding: 3px;
                     }
+
+                    h3 {
+                        font-family: 'RobotoR';
+                        font-size: 1.4em;
+                    }
+
+                    p {
+                        font-family: 'RobotoR';
+                        color: #384633;
+                        text-align: left;
+
+                    }
+                }
             }
+        }
+
+        .three {
+            display: flex;
+            
+            
+            padding: 20px;
+            width: 100%;
+        
+            
+            background-color: #FFFAF1;
+
+            .tdialogue {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: center;
+                height: 100%;
+                align-items: center;
+               margin-top: 8%;
+               margin-bottom: 8%;
+                gap: 3%;
+                
+                width: 100%;
+               
+                
+
+                .divDesktop {
+                    display: flex;
+                    flex-direction: column;
+                    
+                    
+                    width: 40%;
+                    
+                  padding: 2%;
+                    
+                }
+
+                p {
+                    font-family: 'RobotoR';
+                    color: #384633;
+                    width: 600px;
+                    font-size: 1.1em;
+                    
+                }
+
+                h3 {
+                    font-family: 'RobotoR';
+                    color: #000;
+                    font-size: 3em;
+                    width: 500px;
+                    line-height: 50px;
+                    margin-top: 3%;
+                    margin-bottom: 5%;
+                }
+
+                h5 {
+                    display: flex;
+                    align-self: flex-start;
+                    font-family: 'RobotoR';
+                    font-size: 1em;
+                    color: #00856f;
+
+                }
+
+                img {
+                    margin-top: 20px;
+                    width: 600px;
+                    border-radius: 15px;
+                }
+            }
+        }
+
+        .last {
+            display: flex;
+            flex-direction: row;
+        
+            
+            
+            padding: 20px;
+            width: 100vw;
+            
+
+            .lastd {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 15%;
+                align-items: center;
+                width: 100%;
+                padding-top: 8%;
+                padding-bottom: 8%;
+
+                h2 {
+                    font-family: 'RobotoR';
+                    margin-bottom: 10%;
+                    color: #000;
+                    font-size: 3em;
+                    width: 500px;
+                }
+
+                .desktopLast {
+                    
+                }
+
+                p {
+                    font-family: 'RobotoR';
+                    color: #384633;
+                    margin-bottom: 5%;
+                    font-size: 1.1em;
+                    display: flex;
+                }
+
+                .btn {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+                    font-family: 'RobotoR';
+                    background-color: #00856f;
+                    color: #fff;
+                    padding: 15px;
+                    width: 80%;
+                    border: none;
+                    border-radius: 50px;
+                    margin-top: 10%;
+                }
+
+                .imgl {
+                    width: 400px;
+                    display: flex;
+                    
+                    border-radius: 10px;
+                    
+                }
+
+                .imge {
+                    width: 20px;
+                }
+            }
+        }
     }
-    
+
     .header {
         display: flex;
         justify-content: space-around;
@@ -904,80 +1048,92 @@ body, html, #root {
         color: #fff;
         height: 72px;
         background-color: #00856f;
-    
-            img {
-                display: none;
-            }
 
-            .btncons {
+        img {
+            display: none;
+        }
+
+        .btncons {
+            font-family: 'RobotoR';
+            font-weight: bold;
+            width: 10%;
+            padding: 12px;
+            border: 1px solid #fff;
+            border-radius: 20px;
+            background-color: #00856f;
+            color: #fff;
+            text-align: center;
+        }
+
+        .items {
+            display: flex;
+            gap: 15%;
+
+            a {
                 font-family: 'RobotoR';
-                font-weight: bold;
-                width: 10%;
-                padding: 12px;
-                border: 1px solid #fff;
-                border-radius: 20px;
-                background-color: #00856f;
-                color: #fff;
-                text-align: center;
+                color: #384633;
+                text-decoration: none;
+                font-size: 1.1em;
+                transition: ease-in-out 0.2s;
             }
 
-            .items {
-                display: flex;
-                gap: 15%;
+        }
 
-                    a {
-                        font-family: 'RobotoR';
-                        color: #384633;
-                        text-decoration: none;
-                        font-size: 1.1em;
-                        transition: ease-in-out 0.2s;
-                    }
-                    
-            }
-
-            .items > a:hover {
-                color: #fff;
-                border-bottom: 1px solid #fff;
-            }
+        .items>a:hover {
+            color: #fff;
+            border-bottom: 1px solid #fff;
+        }
     }
-    
+
     .foot {
         display: flex;
-        flex-direction: column;
-        margin-top: 60%;
+        flex-direction: row;
+        
+        
     }
-    
+
     .footer {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 20px;
-        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 4%;
+        
+        width: 100%;
+
+            .aux {
+                display: block;
+            }
+        
         font-family: 'RobotoR';
         font-size: 1.8em;
         color: #fff;
         background-color: #00856f;
-        height: 285px;
-    
-            img {
-                width: 22px;
-            }
-    
-            small {
-                font-size: 16px;
-                line-height: 40px;
-            }
-    
-            div {
-                display: flex;
-                gap: 30px;
-            }
+
+        h3 {
+            margin-bottom: 3%;
+        }
+       
+
+        img {
+            width: 28px;
+        }
+
+        small {
+            font-size: 16px;
+            line-height: 40px;
+        }
+
+        div {
+            display: flex;
+            
+            gap: 30px;
+        }
     }
-    
+
     .wppLogo {
         width: 20px;
     }
-    
+
     .med {
         display: none;
         align-self: flex-end;
@@ -985,4 +1141,3 @@ body, html, #root {
         margin-top: 20px;
     }
 }
-
