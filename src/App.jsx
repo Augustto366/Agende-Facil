@@ -6,6 +6,8 @@ import DivSub from './components/DivSub';
 import SDialogue from './components/SDialogue';
 import TDialogue from './components/TDialogue';
 import LDialogue from './components/LDialogue';
+import menuBurger from "./assets/menu-burger.png"
+import closeBurguer from '../src/assets/x.png'
 import Menu from './components/Menu';
 import { useState } from 'react';
 import { useEffect } from 'react';
@@ -14,7 +16,6 @@ function App() {
 
     
         const [open, setOpen] = useState(false);
-    
 
     function toggleMenu() {
         
@@ -23,16 +24,18 @@ function App() {
 
     useEffect(() => {
         if (open) {
-            document.body.classList.add('menu-open');
+            document.body.classList.add('menu-open');    
         } else {
             document.body.classList.remove('menu-open');
         }
     }, [open]);
+
+    
     
 
     return (    
       <>
-      <Header onMenuClick={toggleMenu} />
+      <Header onMenuClick={toggleMenu} menuIcon={open ? closeBurguer : menuBurger} />
       {open && <Menu />}
       <main>
           <div className='first'>
