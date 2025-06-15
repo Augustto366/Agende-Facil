@@ -3,6 +3,7 @@ import menuBurger from "../assets/menu-burger.png"
 
 export class Header extends Component {
   render() {
+    const { onMenuClick } = this.props;
     return (
       <div className='header'>
         
@@ -15,7 +16,7 @@ export class Header extends Component {
       </div>
 
         <button className='btncons' type="button">AGENDAR CONSULTA</button>
-        <img src={menuBurger}/>
+        <img onClick={onMenuClick} id='burguer' src={menuBurger}/>
 
       
        </div>

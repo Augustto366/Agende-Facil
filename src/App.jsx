@@ -6,13 +6,34 @@ import DivSub from './components/DivSub';
 import SDialogue from './components/SDialogue';
 import TDialogue from './components/TDialogue';
 import LDialogue from './components/LDialogue';
-
+import Menu from './components/Menu';
+import { useState } from 'react';
+import { useEffect } from 'react';
 
 function App() {
 
+    
+        const [open, setOpen] = useState(false);
+    
+
+    function toggleMenu() {
+        
+        setOpen(!open)
+    }
+
+    useEffect(() => {
+        if (open) {
+            document.body.classList.add('menu-open');
+        } else {
+            document.body.classList.remove('menu-open');
+        }
+    }, [open]);
+    
+
     return (    
       <>
-      <Header/>
+      <Header onMenuClick={toggleMenu} />
+      {open && <Menu />}
       <main>
           <div className='first'>
               <FDialogue/>
