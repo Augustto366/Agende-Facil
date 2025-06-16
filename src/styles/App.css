@@ -407,6 +407,73 @@ html,
         width: 300px;
         margin-top: 20px;
     }
+
+    .boxTest {
+        width: 100%;
+        min-height: 100vh;
+        padding: 30px 25px;
+        background-color: #00856f; 
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .boxTest h1 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+    
+    .boxTest form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .boxTest input[type="text"],
+    .boxTest input[type="tel"],
+    .boxTest input[type="email"],
+    .boxTest input[type="date"],
+    .boxTest input[type="time"],
+    .boxTest select {
+        padding: 10px 12px;
+        border: none;
+        border-radius: 6px;
+        font-size: 1rem;
+        font-weight: 500;
+        outline: none;
+        transition: box-shadow 0.3s ease;
+    }
+    
+    .boxTest input[type="text"]:focus,
+    .boxTest input[type="tel"]:focus,
+    .boxTest input[type="email"]:focus,
+    .boxTest input[type="date"]:focus,
+    .boxTest input[type="time"]:focus,
+    .boxTest select:focus {
+        box-shadow: 0 0 5px 2px #00d0a3;
+    }
+    
+    .boxTest select {
+        background-color: #fff;
+        color: #333;
+        cursor: pointer;
+    }
+    
+    .boxTest button {
+        margin-top: 10px;
+        background-color: #00d0a3;
+        color: #004d3f;
+        font-weight: 700;
+        border: none;
+        padding: 12px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1.1rem;
+        transition: background-color 0.3s ease;
+    }
 }
 
 @media (min-width: 361px) and (max-width: 500px) {
@@ -800,6 +867,73 @@ html,
     .med {
         width: 300px;
         margin-top: 20px;
+    }
+    
+    .boxTest {
+        width: 100%;
+        min-height: 100vh;
+        padding: 30px 25px;
+        background-color: #00856f; 
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .boxTest h1 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+    
+    .boxTest form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .boxTest input[type="text"],
+    .boxTest input[type="tel"],
+    .boxTest input[type="email"],
+    .boxTest input[type="date"],
+    .boxTest input[type="time"],
+    .boxTest select {
+        padding: 10px 12px;
+        border: none;
+        border-radius: 6px;
+        font-size: 1rem;
+        font-weight: 500;
+        outline: none;
+        transition: box-shadow 0.3s ease;
+    }
+    
+    .boxTest input[type="text"]:focus,
+    .boxTest input[type="tel"]:focus,
+    .boxTest input[type="email"]:focus,
+    .boxTest input[type="date"]:focus,
+    .boxTest input[type="time"]:focus,
+    .boxTest select:focus {
+        box-shadow: 0 0 5px 2px #00d0a3;
+    }
+    
+    .boxTest select {
+        background-color: #fff;
+        color: #333;
+        cursor: pointer;
+    }
+    
+    .boxTest button {
+        margin-top: 10px;
+        background-color: #00d0a3;
+        color: #004d3f;
+        font-weight: 700;
+        border: none;
+        padding: 12px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1.1rem;
+        transition: background-color 0.3s ease;
     }
 }
 
@@ -1240,5 +1374,81 @@ html,
         align-self: flex-end;
         width: 300px;
         margin-top: 20px;
+    }
+
+    .boxTest {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-height: 100vh;
+        padding: 30px 25px;
+        background-color: #00856f; 
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .boxTest h1 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+    
+    .boxTest form {
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .boxTest input[type="text"],
+    .boxTest input[type="tel"],
+    .boxTest input[type="email"],
+    .boxTest input[type="date"],
+    .boxTest input[type="time"],
+    .boxTest select {
+        padding: 20px 24px;
+        border: none;
+        border-radius: 6px;
+        font-size: 1rem;
+        font-weight: 500;
+        outline: none;
+        transition: box-shadow 0.3s ease;
+    }
+    
+    .boxTest input[type="text"]:focus,
+    .boxTest input[type="tel"]:focus,
+    .boxTest input[type="email"]:focus,
+    .boxTest input[type="date"]:focus,
+    .boxTest input[type="time"]:focus,
+    .boxTest select:focus {
+        box-shadow: 0 0 5px 2px #00d0a3;
+    }
+    
+    .boxTest select {
+        background-color: #fff;
+        color: #333;
+        cursor: pointer;
+    }
+    
+    .boxTest button {
+        margin-top: 10px;
+        background-color: #00d0a3;
+        color: #004d3f;
+        font-weight: 700;
+        border: none;
+        padding: 12px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1.1rem;
+        transition: background-color 0.3s ease;
+    }
+
+    .boxTest button:hover {
+        background-color: #00b288;
+        color: #fff;
     }
 }

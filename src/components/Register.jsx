@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import '../styles/App.css'
 
 
 export default function Register() {
@@ -42,7 +43,7 @@ export default function Register() {
     }
 
     return (
-        <div>
+        <div className='boxTest'>
             <h1>Marcar Consulta</h1>
             <form onSubmit={handleSubmit}>
                 <input type="text" name="nome" placeholder="Nome completo" value={form.nome} onChange={handleChange} required />
