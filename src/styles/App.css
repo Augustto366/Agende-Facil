@@ -418,6 +418,13 @@ html,
         color: #fff;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+
+    .return {
+        margin-bottom: 1%;
+        width: 45px;
+        margin-bottom: 2%;
+        padding: 10px;
+    }
     
     .boxTest h1 {
         text-align: center;
@@ -879,6 +886,13 @@ html,
         color: #fff;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+
+    .return {
+        margin-bottom: 1%;
+        width: 45px;
+        margin-bottom: 2%;
+        padding: 10px;
+    }
     
     .boxTest h1 {
         text-align: center;
@@ -938,6 +952,11 @@ html,
 }
 
 @media (min-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
     main {
         display: flex;
         flex-direction: column;
@@ -1044,15 +1063,11 @@ html,
                     content: "";
                     position: absolute;
                     left: 150%;
-                    /* logo após a div */
                     top: 0;
                     width: 2px;
-                    /* espessura da linha */
                     height: 100%;
-                    /* altura da linha */
                     background-color: #00856f;
                     margin-left: 10px;
-                    /* espaço entre a div e a linha */
                 }
 
 
@@ -1376,29 +1391,49 @@ html,
         margin-top: 20px;
     }
 
+    .all {
+        background-image: url('../assets/office.jpg');
+        background-position: center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .boxTest {
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         width: 100%;
         min-height: 100vh;
         padding: 30px 25px;
-        background-color: #00856f; 
+        background: linear-gradient(to right, #00856f, rgba(0, 133, 111, 0));
         box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         color: #fff;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+
+    .return {
+        margin-left: 5%;
+        margin-bottom: 1%;
+        width: 50px;
+        margin-bottom: 2%;
+        padding: 10px;
+    }
+
+    .return:hover {
+        background-color: #00b2884a;  
+        outline: 2px solid #00b288;
+    }
     
     .boxTest h1 {
-        text-align: center;
+        margin-left: 5%;
         margin-bottom: 25px;
         font-weight: 700;
-        font-size: 1.8rem;
+        font-size: 1.9rem;
     }
     
     .boxTest form {
         display: flex;
+        margin-left: 5%;
         width: 30%;
         flex-direction: column;
         gap: 15px;
