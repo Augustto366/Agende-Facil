@@ -1,10 +1,10 @@
 # 🩺 Agende Fácil
 
-![Preview da interface](../my-app/src/assets/preview1.png)
+![Preview da interface](/assets/preview1.png)
 
 O **Agende Fácil** é um sistema web desenvolvido para facilitar o agendamento de consultas médicas online. A plataforma permite que usuários marquem suas consultas de forma prática, rápida e totalmente digital.
 
-![Preview da interface](../my-app/src/assets/image.png)
+![Preview da interface](/assets/image.png)
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -21,16 +21,10 @@ git clone https://github.com/augustto366/agende-facil.git
 cd agende-facil
 Instale as dependências:
 
-bash
-Copy
-Edit
 npm install
 ▶️ Como Executar
 Inicie o servidor com o seguinte comando:
 
-bash
-Copy
-Edit
 node server.js
 O projeto será executado em http://localhost:3000 ou na porta definida em process.env.PORT.
 
