@@ -1018,7 +1018,20 @@ html,
                     width: 20%;
                     border: none;
                     border-radius: 50px;
+                    transition: ease-in-out 0.1s;
+                    cursor: pointer;
                 }
+
+                button:hover {
+                    background-color: #00b288;
+                    color: #fff;
+                }
+
+                button:active {
+                    transform: scale(0.95); 
+                    background-color: #00b288;
+                }
+                
             }
 
             .block {
@@ -1272,6 +1285,18 @@ html,
                     border: none;
                     border-radius: 50px;
                     margin-top: 10%;
+                    transition: ease-in-out 0.1s;
+                    cursor: pointer;
+                }
+
+                .btn:hover {
+                    background-color: #00b288;
+                    color: #fff;
+                }
+
+                .btn:active {
+                    transform: scale(0.95); 
+                    background-color: #00b288;
                 }
 
                 .imgl {
@@ -1313,6 +1338,18 @@ html,
             background-color: #00856f;
             color: #fff;
             text-align: center;
+            transition: ease-in-out 0.1s;
+            cursor: pointer;
+        }
+
+        .btncons:hover {
+            background-color: #fff;
+            color: #00b288;
+        }
+
+        .btncons:active {
+            transform: scale(0.95); 
+            background-color: #00b288;
         }
 
         .items {
@@ -1417,11 +1454,19 @@ html,
         width: 50px;
         margin-bottom: 2%;
         padding: 10px;
+        transition: ease-in-out 0.03s;
     }
 
     .return:hover {
-        background-color: #00b2884a;  
-        outline: 2px solid #00b288;
+        border-left: 3px solid #00b288;
+        color: #fff;
+        transition: ease-in-out 0.03s;
+    }
+
+    .return:active {
+        transform: scale(0.95); 
+        background-color: #00b288;
+        border-radius: 0px 30px 30px 0px;
     }
     
     .boxTest h1 {
