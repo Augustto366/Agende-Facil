@@ -26,15 +26,24 @@ export default function Register() {
 
     async function handleSubmit(e) {
         e.preventDefault();
-
+    
         const response = await fetch('/register', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(form)
         });
-
+    
         if (response.ok) {
             toast.success('Consulta agendada com sucesso!');
+    
+            const mensagem = `Olá, ${form.nome}! Sua consulta foi agendada com sucesso:\n 🩻 Especialidade: ${form.especialidade}\n 📅 Data: ${form.data}\n ⏰ Hora: ${form.hora}`;
+    
+            const celularLimpo = form.celular.replace(/\D/g, '');
+    
+            const url = `https://wa.me/55${celularLimpo}?text=${encodeURIComponent(mensagem)}`;
+    
+            window.open(url, '_blank');
+    
             setForm({
                 nome: '',
                 cpf: '',
@@ -47,6 +56,7 @@ export default function Register() {
         } else {
             toast.error('Erro ao agendar consulta!');
         }
+    
     }
 
     return (
