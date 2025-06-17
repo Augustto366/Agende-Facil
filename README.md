@@ -1,10 +1,10 @@
 # 🩺 Agende Fácil
 
-![Preview da interface](/assets/preview1.png)
+![Preview da interface](src/assets/preview1.png)
 
 O **Agende Fácil** é um sistema web desenvolvido para facilitar o agendamento de consultas médicas online. A plataforma permite que usuários marquem suas consultas de forma prática, rápida e totalmente digital.
 
-![Preview da interface](/assets/image.png)
+![Preview da interface](src/assets/image.png)
 
 ## 🚀 Tecnologias Utilizadas
 
