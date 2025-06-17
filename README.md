@@ -1,12 +1,63 @@
-# React + Vite
+# 🩺 Agende Fácil
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Preview da interface](../my-app/src/assets/preview1.png)
 
-Currently, two official plugins are available:
+O **Agende Fácil** é um sistema web desenvolvido para facilitar o agendamento de consultas médicas online. A plataforma permite que usuários marquem suas consultas de forma prática, rápida e totalmente digital.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Preview da interface](../my-app/src/assets/image.png)
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/) – Frontend
+- [Express](https://expressjs.com/) – Backend
+- [MongoDB](https://www.mongodb.com/) – Banco de dados
+
+## 📦 Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/augustto366/agende-facil.git
+cd agende-facil
+Instale as dependências:
+
+bash
+Copy
+Edit
+npm install
+▶️ Como Executar
+Inicie o servidor com o seguinte comando:
+
+bash
+Copy
+Edit
+node server.js
+O projeto será executado em http://localhost:3000 ou na porta definida em process.env.PORT.
+
+✨ Funcionalidades
+✅ Cadastro e login de usuários
+
+✅ Agendamento de consultas médicas
+
+✅ Interface simples e responsiva
+
+✅ Integração com banco de dados MongoDB
+
+📄 Licença
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais informações.
+
+perl
+Copy
+Edit
+
+
+
+
+
+
+
+
+
+Tools
+
+
